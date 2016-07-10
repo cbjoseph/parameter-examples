@@ -1,0 +1,7 @@
+<h1>Hello! Here is your name:</h1>
+<p>
+<%=@name%>
+ <%if @name.capitalize.starts_with?("A")%>
+      <p> "your name starts with A!"</p>
+    <%end%>
+
